@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">바보사랑</string>
+    <string name="action_settings">설정</string>
+    <string name="text_no_internet">인터넷 연결을 사용할 수 없습니다! 전원을 켜주세요!</string>
+    <string name="dialog_msg_login">로그인 ...</string>
+    <string name="login_success">로그인 되었습니다</string>
+    <string name="login_failed">아이디 또는 비밀번호에 오류가 있습니다.</string>
+    <string name="logout_success">로그아웃 하였습니다.</string>
+    <string name="logout_fail">다시 시도 하여 주십시오.</string>
+     <string name="non_member">비회원 로그인</string>
+    <!-- Setting -->
+    <string name="setting_title">설정</string>
+    <string name="setting_login_setting">로그인 설정</string>
+    <string name="setting_account_info">계정정보</string>
+    <string name="setting_auto_login">자동로그인</string>
+    <string name="setting_logout">로그아웃</string>
+    <string name="setting_login">로그인</string>
+    <string name="setting_sns_setting">SNS 설정</string>
+    <string name="setting_sns_kakao">카카오스토리</string>
+    <string name="setting_sns_facebook">페이스북</string>
+    <string name="setting_sns_notice">페이스북 이벤트 진행시 자동으로 푸시알림이 나타납니다.</string>
+    <string name="setting_notification_setting">알림 설정</string>
+    <string name="setting_notification_receive">알림받기</string>
+    <string name="setting_notification_vibrate">진동 알림</string>
+    <string name="setting_notification_sound">사운드 알림</string>
+    <string name="setting_notification_led">LED 알림</string>
+    <string name="setting_version">버전정보</string>
+    <string name="setting_version_text">Ver %s 최신 버전입니다.</string>
+    <string name="title_activity_setting">작업 설정</string>
+    <string name="dialog_msg_processing">처리중 ...</string>
+    <string name="cscenter">고객행복센터</string>
+    <string name="msg_shutdown">뒤로가기를 한 번 더 누르면 앱이 종료됩니다</string>
+    <string name="refresh">새로 고침</string>
+    <string name="login_blank_field">사용자 ID와 비밀번호를 입력하여 주십시오.</string>
+    <string name="setting_Join">회원가입</string>
+    <string name="forget_pass">아이디나 비밀번호를 분실하셨습니까 ?</string>
+    <string name="login_username">아이디</string>
+    <string name="login_password">비밀번호</string>
+    <string name="debug">Debug</string>
+    <!-- Setting -->
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="new_version">바보사랑의 새로운 버전으로 업데이트 되었습니다.</string>
+    <string name="new_update">업데이트</string>
+    <string name="new_cancel">취소</string>
+    <string name="new_function">새로운 기능</string>
+    <string name="ver_cur">현재 버전</string>
+    <string name="ver_new">최신 버전</string>
+    <string name="btn3">비밀번호 찾기</string>
+    <string name="f_id">아이디 찾기</string>
+    <string name="non_m">비회원 주문조회</string>
+    <string name="save_id">아이디저장</string>
+    <string name="save_pass">비밀번호 저장</string>
+    <string name="shopping_cart">쇼핑카트</string>
+    <string name="o_der">주문</string>
+
+</resources>

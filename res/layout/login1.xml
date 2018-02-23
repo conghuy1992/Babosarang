@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_ln_member"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:padding=" 20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_linear_gray"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/btnacc"
+                style="@style/gray_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext"
+                android:ellipsize="end"
+                android:hint="@string/login_username"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/btpass"
+                style="@style/gray_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_edittext"
+                android:ellipsize="end"
+                android:hint="@string/login_password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <CheckBox
+                    android:id="@+id/checkLogin"
+                    style="@style/gray_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/checkbox_state"
+                    android:checked="false"
+                    android:text="@string/remember" />
+
+                <CheckBox
+                    android:id="@+id/checksaveid"
+                    style="@style/gray_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/checkbox_state"
+                    android:checked="false"
+                    android:text="@string/save_id" />
+
+                <CheckBox
+                    android:id="@+id/checksavepass"
+                    style="@style/gray_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/checkbox_state"
+                    android:checked="false"
+                    android:text="@string/save_pass" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/gray_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_gray2_button"
+                android:text="@string/setting_login"
+                android:textColor="@color/White"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/non_member"
+                    style="@style/small_black_text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_textview"
+                    android:gravity="center"
+                    android:text="@string/f_id"
+                    android:textColor="#b6baba"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    style="@style/small_black_text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_textview3"
+                    android:gravity="center"
+                    android:text="@string/btn3"
+                    android:textColor="#b6baba"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/register_member"
+                    style="@style/small_black_text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_textview"
+                    android:gravity="center"
+                    android:text="@string/setting_Join"
+                    android:textColor="#b6baba"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:text="@string/non_m"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
